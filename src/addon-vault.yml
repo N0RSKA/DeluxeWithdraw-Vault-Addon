@@ -1,0 +1,37 @@
+#########################################################################################
+#                                                                                       #
+# DeluxeWithdraw Vault Addon, a free addon by Norska @ https://norska.dev               #
+#                                                                                       #
+# Wiki: https://norska.dev/docs/welcome/                                                #
+# Support: https://norska.dev/discord/                                                  #
+#                                                                                       #
+# You are editing the config.yml file of DeluxeWithdraw Vault Addon.                    #
+#                                                                                       #
+#########################################################################################
+
+# !!! DeluxeWithdraw is required for this addon:
+# SpigotMC -> https://norska.dev/r/spigot/dw/
+# Polymart -> https://norska.dev/r/polymart/dw/
+
+##################################
+#                                #
+#        GENERAL SETTINGS        #
+#                                #
+################################## 
+
+settings:
+   commands:
+   - 'BANKNOTE'
+   - 'WITHDRAW'
+   # Note: What the creator placeholder will show when notes are given via the admin command.
+   creatorForAdminItems: "&6Your server name?"
+   minMaxWithdraw:
+      minWithdraw: 1000
+      # Note: 10 Trillion (MAX LIMIT) -> 10000000000000
+      maxWithdraw: 10000000000000
+   # Note: Which item layout to copy when players withdraw money onto notes. This must match an item section in items.yml of DeluxeWithdraw.
+   itemLayout: "money_default"
+   # Note: What to display in messages containing vault currency
+   currencyName: "$"
+   # Note: 1 -> Will display currencyName before currency (e.g $50). 2 -> Will display currencyName after currency (e.g 50$)
+   currencyFormat: 1    
