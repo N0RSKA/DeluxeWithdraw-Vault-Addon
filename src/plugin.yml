@@ -1,6 +1,6 @@
-name: DeluxeWithdrawVaultAddon
+name: DWA-Vault
 main: dev.norska.dwaddon.vault.VaultAddon
-version: Build 1
+version: 2025.03
 author: Norska
 website: "https://norska.dev"
 api-version: 1.13
